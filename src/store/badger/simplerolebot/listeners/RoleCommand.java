@@ -83,7 +83,7 @@ public class RoleCommand extends ListenerAdapter {
                                     roleUser, role
                             ).submit();
                             chan.sendMessage(API.getSuccessEmbed(
-                                    "Removed role " + role.getName() + " from user " + roleUser.getNickname(),
+                                    "Removed role " + role.getName() + " from user " + roleUser.getUser().getAsMention(),
                                     mem).build()).submit();
                         } else {
                             chan.sendMessage(API.getFailureEmbed("Your role is lower than the one you are trying to remove... " +
@@ -105,7 +105,7 @@ public class RoleCommand extends ListenerAdapter {
                                         roleUser, role
                                 ).submit();
                                 chan.sendMessage(API.getSuccessEmbed(
-                                        "Added role " + role.getName() + " to user " + roleUser.getNickname(),
+                                        "Added role " + role.getName() + " to user " + roleUser.getUser().getAsMention(),
                                         mem).build()).submit();
                             } else {
                                 chan.sendMessage(API.getFailureEmbed("Your role is lower than the one you are trying to remove... " +
