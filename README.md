@@ -220,4 +220,5 @@ users. You can also dictate what roles a certain role can add/remove to others.
 
 ## Further Updated Documentation
 If you find yourself needing further assistance and/or help even afer reading this whole 
-README file, please make sure to check out my documentation over at https://docs.badger.store
+README file, please make sure to check out my documentation over at 
+https://docs.badger.store/badger-software/simplerolebot
