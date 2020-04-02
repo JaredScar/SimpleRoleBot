@@ -9,14 +9,12 @@ import store.badger.simplerolebot.listeners.RoleCommand;
 
 import javax.security.auth.login.LoginException;
 import java.io.File;
-import java.io.IOException;
-import java.net.URISyntaxException;
 import java.util.Timer;
 import java.util.TimerTask;
 
 public class Main {
     private static JDA jda;
-    public static void main(String[] args) throws LoginException, IOException, URISyntaxException {
+    public static void main(String[] args) throws LoginException {
         File config = new File("config.yml");
         YamlConfiguration fig = YamlConfiguration.loadConfiguration(config);
         String token = fig.getString("BotToken");
