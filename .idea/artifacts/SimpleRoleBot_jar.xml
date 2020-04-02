@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="SimpleRoleBot:jar">
+    <output-path>$USER_HOME$/Downloads/Discord-Bots/SimpleRoleBot</output-path>
+    <root id="archive" name="SimpleRoleBot.jar">
+      <element id="module-output" name="SimpleRoleBot" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/JDA-3.8.3_463-withDependencies.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/spigot.1.8.8.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

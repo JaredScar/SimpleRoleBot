@@ -6,7 +6,7 @@
 BotToken: ''
 RoleConfiguration:
   693833984173408328: # Staff Role
-    - '*' # All Permissions
+    - '*' # All Permission for every role below their highest role
   693901091678716006: # National Guard OIC
     - '694065977398132738' # National Guard HC
     - '694065982565515265' # National Guard FTO
@@ -38,7 +38,8 @@ RoleConfiguration:
     - '694649107943260170' # CHP Corporal
     - '694649108765343786' # CHP Patrol FTO
     - '694649108778188871' # Trooper First Class
-    - '694649109922971669' # Probationary Trooper
+    - '694649109922971669' # Trooper
+    - '694649111995220560' # Probationary Trooper
     - '694649112544673850' # CHP Application Handler
     - '694649758584930404' # CHP Recruitment Team
     - '694678105503039519' # CHP Supervisor
@@ -60,7 +61,8 @@ RoleConfiguration:
     - '694649107943260170' # CHP Corporal
     - '694649108765343786' # CHP Patrol FTO
     - '694649108778188871' # Trooper First Class
-    - '694649109922971669' # Probationary Trooper
+    - '694649109922971669' # Trooper
+    - '694649111995220560' # Probationary Trooper
     - '694649112544673850' # CHP Application Handler
     - '694649758584930404' # CHP Recruitment Team
     - '694678105503039519' # CHP Supervisor
